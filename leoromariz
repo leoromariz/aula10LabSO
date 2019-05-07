@@ -1,0 +1,11 @@
+#!/bin/bash 
+echo "Entre com o nome da pasta"
+read PASTA
+mkdir $PASTA
+cd $PASTA
+i=1
+touch $PASTA$i.txt
+i=2
+touch $PASTA$i.txt
+i=3 
+touch $PASTA$i.txt
